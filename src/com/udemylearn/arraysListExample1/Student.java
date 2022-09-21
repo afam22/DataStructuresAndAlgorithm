@@ -1,0 +1,63 @@
+package com.udemylearn.arraysListExample1;
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Student {
+
+    protected String name;
+    protected ArrayList<Integer> marks = new ArrayList<>();
+
+    public Student(String name, int... marks) {
+        this.name = name;
+        for (int mark:marks) {
+            this.marks.add(mark);
+        }
+    }
+
+    public int getNumberOfMarks(){
+        return marks.size();
+    }
+
+    public  int getTotalSumOfMarks(){
+        int sum = 0;
+        for (int mark:marks){
+            sum = sum + mark;
+        }
+        return sum;
+    }
+
+//  Since ArrayList is a member of Collections, we can further modify getting max and min marks
+    public int getMaximumMark(){
+        return Collections.max(marks);
+    }
+
+    public int getMinimumMark(){
+        return Collections.min(marks);
+    }
+
+    public BigDecimal getAverageMarks(){
+        int sum = getTotalSumOfMarks();
+        int marksNo = getNumberOfMarks();
+        return new BigDecimal(sum).divide(new BigDecimal(marksNo),2, RoundingMode.UP);
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", marks=" + marks +
+                '}';
+    }
+
+
+    public void addNewMark(int mark) {
+        marks.add(mark);
+    }
+
+    public void removeMarkAtIndex(int index) {
+        marks.remove(index);
+    }
+}
