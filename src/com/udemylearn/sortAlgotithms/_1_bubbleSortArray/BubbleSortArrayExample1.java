@@ -17,7 +17,6 @@ public class BubbleSortArrayExample1 {
             }
         }
         System.out.println(Arrays.toString(listOfNumbers));
-
     }
 
     private static void performSwap(int[] array, int n1, int n2){
