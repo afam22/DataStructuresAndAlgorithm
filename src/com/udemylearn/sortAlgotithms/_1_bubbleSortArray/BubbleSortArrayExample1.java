@@ -20,10 +20,6 @@ public class BubbleSortArrayExample1 {
 
     }
 
-    //DataStructuresAndAlgorithm
-    //Learning data structures and algorithms from zero to hero
-
-
     private static void performSwap(int[] array, int n1, int n2){
         if (n1 == n2){
             return; // do nothing
