@@ -11,7 +11,7 @@ public class SelectionSortArrayExample1 {
             int largestIndex = 0;
             //looking for largest element
             for (int i = 1; i <= lastUnsortedIndex; i++){
-                if (intArray[i] > intArray[largestIndex]){
+                if (intArray[i] > intArray[largestIndex]){ // to arrange in descending order, change the sign > to <
                     largestIndex = i;
                 }
             }
