@@ -2,6 +2,7 @@ package com.udemylearn.sortAlgotithms._4_shellSortArray;
 
 import java.util.Arrays;
 
+//Shell sort optimizes insertion sort
 public class ShellSortArrayExample1 {
     public static void main(String[] args) {
         int[] intArray = {20,35,-15,7,55,1,-22};
