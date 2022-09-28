@@ -5,6 +5,14 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
+/*        int multiplier = 1; int factorial = 1; int num = 3;
+
+        while (multiplier <= num){
+            factorial = factorial * multiplier;
+            multiplier++;
+        }
+        System.out.println("\nFactorial of " + num + " is: " + factorial);*/
+
 
         int[] myArray = arrayExample();
         System.out.println(Arrays.toString(myArray));
