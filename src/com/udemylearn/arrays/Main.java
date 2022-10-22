@@ -16,6 +16,9 @@ public class Main {
 
         int[] myArray = arrayExample();
         System.out.println(Arrays.toString(myArray));
+        System.out.println("");
+        checkNumbersOfNegativePositiveAndZerosInArray(myArray);
+
 //        int index = retrieveIndex(myArray,-22);
 //        System.out.println("index = " + index);
     }
@@ -38,6 +41,26 @@ public class Main {
         for (int j : array) {
             System.out.println(j);
         }
+    }
+
+    public static void checkNumbersOfNegativePositiveAndZerosInArray(int [] arr){
+        int positive = 0;
+        int negative = 0;
+        int zero = 0;
+
+        for(int i=0; i < arr.length; i++){
+            if(arr[i] == 0){
+                zero++;
+            } else if (arr[i] > 0){
+                positive++;
+            } else if (arr[i] < 0){
+                negative++;
+            }
+        }
+        System.out.println("positives = " + positive);
+        System.out.println("negatives = " + negative);
+        System.out.println("zeros = " + zero);
+
     }
 
     public static int retrieveIndex(int[] arrayToRetrieveIndex, int number){
