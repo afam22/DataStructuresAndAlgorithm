@@ -61,6 +61,12 @@ public class Main {
         System.out.println("negatives = " + negative);
         System.out.println("zeros = " + zero);
 
+        double result = (positive*1.0)/arr.length;
+        System.out.format("%.6f", result);
+        System.out.println("");
+        double result2 = (negative*1.0)/arr.length;
+        System.out.format("%.6f", result2);
+
     }
 
     public static int retrieveIndex(int[] arrayToRetrieveIndex, int number){
