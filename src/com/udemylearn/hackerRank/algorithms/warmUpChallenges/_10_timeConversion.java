@@ -1,4 +1,4 @@
-package com.udemylearn.hackerRank.algorithms;
+package com.udemylearn.hackerRank.algorithms.warmUpChallenges;
 
 /*
 Given a time in -hour AM/PM format, convert it to military (24-hour) time.

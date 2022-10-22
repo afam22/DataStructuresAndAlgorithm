@@ -1,4 +1,4 @@
-package com.udemylearn.hackerRank.algorithms;
+package com.udemylearn.hackerRank.algorithms.warmUpChallenges;
 
 /*
 Given a square matrix, calculate the absolute difference between the sums of its diagonals.

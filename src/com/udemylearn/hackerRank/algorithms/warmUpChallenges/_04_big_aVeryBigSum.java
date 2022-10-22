@@ -1,4 +1,4 @@
-package com.udemylearn.hackerRank.algorithms;
+package com.udemylearn.hackerRank.algorithms.warmUpChallenges;
 
 import java.util.ArrayList;
 import java.util.List;
