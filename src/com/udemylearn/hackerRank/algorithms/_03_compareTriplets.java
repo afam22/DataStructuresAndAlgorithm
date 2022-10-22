@@ -48,7 +48,7 @@ Constraints
 1 ≤ b[i] ≤ 100
  */
 
-public class _4_compareTriplets {
+public class _03_compareTriplets {
     public static void main(String[] args) {
         List<Integer> a = new ArrayList<>();
         a.add(10);

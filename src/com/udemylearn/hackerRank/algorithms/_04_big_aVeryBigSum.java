@@ -33,7 +33,7 @@ Sample Input
 5
 1000000001 1000000002 1000000003 1000000004 1000000005
  */
-public class _5_big_aVeryBigSum {
+public class _04_big_aVeryBigSum {
     public static void main(String[] args) {
         List<Long> array = new ArrayList<>();
         array.add(1000000001L);

@@ -16,7 +16,7 @@ There are  elements, two positive, two negative and one zero. Their ratios are ,
 0.400000
 0.200000
  */
-public class _6_plusMinus {
+public class _06_plusMinus {
     public static void main(String[] args) {
         List<Integer> arr = array();
         plusMinus(arr);

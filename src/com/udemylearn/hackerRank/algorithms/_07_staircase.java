@@ -30,7 +30,7 @@ A single integer, , denoting the size of the staircase.
 
 Note: The last line must have  spaces in it.
  */
-public class _7_staircase {
+public class _07_staircase {
     public static void main(String[] args) {
         int noOfSteps = 6;
         staircase(noOfSteps);

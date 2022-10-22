@@ -36,7 +36,7 @@ Return the absolute difference between the sums of the matrix's two diagonals as
 import java.util.ArrayList;
 import java.util.List;
 
-public class _6_diagonalDifference {
+public class _05_diagonalDifference {
     public static void main(String[] args) {
         List<List<Integer>> array = new ArrayList();
         List<Integer> row1 = new ArrayList<>();

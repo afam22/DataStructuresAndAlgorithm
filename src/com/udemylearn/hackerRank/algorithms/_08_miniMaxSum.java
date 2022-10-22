@@ -18,7 +18,7 @@ miniMaxSum has the following parameter(s):
 
 arr: an array of  integers
  */
-public class _8_miniMaxSum {
+public class _08_miniMaxSum {
     public static void main(String[] args) {
 
         List<Integer> arr = miniMaxArray();
