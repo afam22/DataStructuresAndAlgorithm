@@ -3,7 +3,7 @@ package com.udemylearn.hackerRank.algorithms.basicChallenges;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _003_GraduatingStudentsMarks {
+public class _001_GraduatingStudentsMarks {
     public static void main(String[] args) {
         List<Integer> result = gradingStudents(array());
         System.out.println(result);

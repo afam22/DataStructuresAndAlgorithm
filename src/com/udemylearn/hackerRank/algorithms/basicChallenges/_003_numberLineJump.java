@@ -1,6 +1,6 @@
 package com.udemylearn.hackerRank.algorithms.basicChallenges;
 
-public class _002_numberLineJump {
+public class _003_numberLineJump {
     public static void main(String[] args) {
         int x1 = 0; // 0    14  6644
         int v1 = 3; // 2    4   5868

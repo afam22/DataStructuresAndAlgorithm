@@ -12,7 +12,7 @@ When a fruit falls from its tree, it lands d units of distance from its tree of 
 import java.util.ArrayList;
 import java.util.List;
 
-public class _001_appleOrangeCount {
+public class _002_appleOrangeCount {
     public static void main(String[] args) {
         int start_s = 7;
         int end_t = 11;
